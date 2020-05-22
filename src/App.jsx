@@ -22,7 +22,7 @@ fetchGithub = () => {
 
 fetchRepos = () => {
     fetch(
-        'https://api.github.com/users/stremysonia/4e6e41b53f9ed213c9e312950fbdcda6cd5ec22a'
+        ''
     )
         .then(res => res.json())
         .then(data => this.setState({repos: data, loading: false}))
